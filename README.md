@@ -29,5 +29,14 @@ Select and force kill process
 > peco_force_process_kill
 ```
 
+## Configuration
+```
+function fish_user_key_bindings
+  bind \cr peco_select_repository
+  bind \ch peco_select_history
+  bind \ck peco_process_kill
+end
+```
+
 ## License
 MIT
